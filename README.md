@@ -38,7 +38,14 @@
         new file:   app/Http/Controllers/HelloController.php
         modified:   routes/web.php
 
-### 12. Introduction to View
+### 12. Introduction to View + Controller
+
+        modified:   README.md
+        new file:   app/Http/Controllers/AboutController.php
+        new file:   app/Http/Controllers/ContactController.php
+        new file:   resources/views/about.blade.php
+        new file:   resources/views/contact.blade.php
+        modified:   routes/web.php
 
 ### 13. Introduction to Blade Template
 
