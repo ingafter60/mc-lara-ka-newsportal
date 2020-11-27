@@ -26,6 +26,9 @@
 
 ### 10. Introduction to Route Part 2
 
+        modified:   README.md
+        modified:   routes/web.php
+
 ### 11. Introduction to Controller
 
 ### 12. Introduction to View
