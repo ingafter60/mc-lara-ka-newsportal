@@ -31,6 +31,13 @@
 
 ### 11. Introduction to Controller
 
+      >> php artisan make:controller HelloController
+      >> php artisan make:controller AddController --resource
+        modified:   README.md
+        new file:   app/Http/Controllers/AddController.php
+        new file:   app/Http/Controllers/HelloController.php
+        modified:   routes/web.php
+
 ### 12. Introduction to View
 
 ### 13. Introduction to Blade Template
