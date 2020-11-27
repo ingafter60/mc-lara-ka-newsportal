@@ -49,6 +49,11 @@
 
 ### 13. Introduction to Blade Template
 
+        modified:   README.md
+        modified:   resources/views/about.blade.php
+        modified:   resources/views/contact.blade.php
+        new file:   resources/views/master.blade.php
+
 ## Section 3: Setup Front View for Project Tamplate
 
 ### 14. Front View Setup Part 01
