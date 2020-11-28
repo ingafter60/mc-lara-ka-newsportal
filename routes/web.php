@@ -17,13 +17,17 @@
 // })->where('id', '[0-9]+');
 
 // CONCTROLLER
-Route::get('/world', 'HelloController@hello');
-Route::get('/', 'AddController@index');
+// Route::get('/world', 'HelloController@hello');
+// Route::get('/', 'AddController@index');
 
 // VIEW
 //Route::view('/about', 'about');
 //Route::view('/contact', 'contact');
 
 // CONTROLLER + VIEW
-Route::get('/', ['uses' => 'HomePageController@index', 'as' => 'home']);
-Route::get('/about', ['uses' => 'AboutController@about', 'as' => 'about']);
+// Route::get('/', ['uses' => 'HomePageController@index', 'as' => 'home']);
+// Route::get('/about', ['uses' => 'AboutController@about', 'as' => 'about']);
+
+Route::get('/', 'HomePageController@index');
+Route::get('/listing', 'ListingPageController@index');
+

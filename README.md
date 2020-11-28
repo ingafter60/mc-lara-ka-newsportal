@@ -91,7 +91,21 @@
         renamed:    app/Http/Controllers/HomeController.php -> app/Http/Controllers/HomePageController.php
         modified:   routes/web.php
 
-### 17. Front View Setup Part 04
+### 17. Front View Setup Part 04 - Adding listing page with sagmentation
+
+        modified:   README.md
+        modified:   app/Http/Controllers/HomePageController.php
+        new file:   app/Http/Controllers/ListingPageController.php
+        new file:   resources/views/front/layouts/components/listing/breadcrumb.blade.php
+        new file:   resources/views/front/layouts/components/listing/editor-corner.blade.php
+        new file:   resources/views/front/layouts/components/listing/main-content.blade.php
+        new file:   resources/views/front/layouts/components/listing/most-commented.blade.php
+        new file:   resources/views/front/layouts/components/listing/pagination.blade.php
+        new file:   resources/views/front/layouts/components/listing/popular-news.blade.php
+        new file:   resources/views/front/layouts/components/listing/reders-corner.blade.php
+        new file:   resources/views/front/layouts/components/listing/reviews.blade.php
+        new file:   resources/views/front/listing.blade.php
+        modified:   routes/web.php
 
 ### 18. Front View Setup Part 05
 
