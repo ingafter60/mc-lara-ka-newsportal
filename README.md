@@ -85,7 +85,11 @@
         new file:   resources/views/front/layouts/shared/scripts.blade.php
         new file:   resources/views/front/layouts/shared/subscriber.blade.php
 
-### 16. Front View Setup Part 03
+### 16. Front View Setup Part 03 - Re-naming the HomeController to HomePageController
+
+        modified:   README.md
+        renamed:    app/Http/Controllers/HomeController.php -> app/Http/Controllers/HomePageController.php
+        modified:   routes/web.php
 
 ### 17. Front View Setup Part 04
 

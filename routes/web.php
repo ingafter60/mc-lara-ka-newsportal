@@ -25,5 +25,5 @@ Route::get('/', 'AddController@index');
 //Route::view('/contact', 'contact');
 
 // CONTROLLER + VIEW
-Route::get('/', ['uses' => 'HomeController@index', 'as' => 'home']);
+Route::get('/', ['uses' => 'HomePageController@index', 'as' => 'home']);
 Route::get('/about', ['uses' => 'AboutController@about', 'as' => 'about']);
