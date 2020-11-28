@@ -69,7 +69,21 @@
         modified:   resources/views/master.blade.php
         modified:   routes/web.php
 
-### 15. Front View Setup Part 02
+### 15. Front View Setup Part 02 - Sagmenting the home page
+
+        modified:   README.md
+        modified:   app/Http/Controllers/HomeController.php
+        new file:   resources/views/front/home.blade.php
+        new file:   resources/views/front/layouts/components/home/category.blade.php
+        renamed:    resources/views/master.blade.php -> resources/views/front/layouts/components/home/feature-news.blade.php
+        new file:   resources/views/front/layouts/components/home/header-section.blade.php
+        new file:   resources/views/front/layouts/master.blade.php
+        new file:   resources/views/front/layouts/shared/footer.blade.php
+        new file:   resources/views/front/layouts/shared/head.blade.php
+        new file:   resources/views/front/layouts/shared/header.blade.php
+        new file:   resources/views/front/layouts/shared/mobile-menu.blade.php
+        new file:   resources/views/front/layouts/shared/scripts.blade.php
+        new file:   resources/views/front/layouts/shared/subscriber.blade.php
 
 ### 16. Front View Setup Part 03
 
