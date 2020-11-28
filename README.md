@@ -107,7 +107,22 @@
         new file:   resources/views/front/listing.blade.php
         modified:   routes/web.php
 
-### 18. Front View Setup Part 05
+### 18. Front View Setup Part 05 - Adding details page with sagmentation
+
+        modified:   README.md
+        new file:   app/Http/Controllers/DetailsPageController.php
+        new file:   resources/views/front/details.blade.php
+        new file:   resources/views/front/layouts/components/details/add-comments.blade.php
+        new file:   resources/views/front/layouts/components/details/content.blade.php
+        new file:   resources/views/front/layouts/components/details/readers-comment.blade.php
+        new file:   resources/views/front/layouts/components/details/related-news.blade.php
+        renamed:    resources/views/front/layouts/components/listing/editor-corner.blade.php -> resources/views/front/layouts/shared/side-editor-corner.blade.php
+        renamed:    resources/views/front/layouts/components/listing/most-commented.blade.php -> resources/views/front/layouts/shared/side-most-commented.blade.php
+        renamed:    resources/views/front/layouts/components/listing/popular-news.blade.php -> resources/views/front/layouts/shared/side-popular-news.blade.php
+        renamed:    resources/views/front/layouts/components/listing/reders-corner.blade.php -> resources/views/front/layouts/shared/side-reders-corner.blade.php
+        renamed:    resources/views/front/layouts/components/listing/reviews.blade.php -> resources/views/front/layouts/shared/side-reviews.blade.php
+        modified:   resources/views/front/listing.blade.php
+        modified:   routes/web.php
 
 ## Section 4: Setup Admin View for Project Tamplate
 

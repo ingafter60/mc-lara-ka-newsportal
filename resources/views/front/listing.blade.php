@@ -467,7 +467,7 @@
                      <div class="col-md-4">
 
                         <!-- Popular News -->
-               			@include('front.layouts.components.listing.popular-news')
+               			@include('front.layouts.shared.side-popular-news')
 
                         <!-- Advertisement -->
                         <div class="widget hidden-xs m30">
@@ -482,7 +482,7 @@
                         </div>
 
                         <!-- Reviews -->
-               			@include('front.layouts.components.listing.reviews')
+               			@include('front.layouts.shared.side-reviews')
 
                         <!-- Advertisement -->
                         <div class="widget hidden-xs m30">
@@ -490,10 +490,10 @@
                         </div>
 
                         <!-- Most Commented -->
-               			@include('front.layouts.components.listing.most-commented')
+               			@include('front.layouts.shared.side-most-commented')
 
                         <!-- Editor Corner -->
-               			@include('front.layouts.components.listing.editor-corner')
+               			@include('front.layouts.shared.side-editor-corner')
 
                         <!-- Advertisement -->
                         <div class="widget hidden-xs m30">
@@ -504,7 +504,7 @@
                         </div>
 
                         <!-- Readers Corner -->
-               			@include('front.layouts.components.listing.reders-corner')
+               			@include('front.layouts.shared.side-reders-corner')
 
                         <!-- Podcast -->
                         <div class="widget hidden-xs m30">

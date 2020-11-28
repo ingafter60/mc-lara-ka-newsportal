@@ -30,4 +30,5 @@
 
 Route::get('/', 'HomePageController@index');
 Route::get('/listing', 'ListingPageController@index');
+Route::get('/details', 'DetailsPageController@index');
 
