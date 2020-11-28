@@ -56,7 +56,18 @@
 
 ## Section 3: Setup Front View for Project Tamplate
 
-### 14. Front View Setup Part 01
+### 14. Front View Setup Part 01 - Added home template in master.blade.php
+
+        modified:   README.md
+        modified:   app/Http/Controllers/AboutController.php
+        modified:   app/Http/Controllers/AddController.php
+        deleted:    app/Http/Controllers/ContactController.php
+        ...
+        new file:   public/front/js/script.js
+        new file:   public/front/js/smoothscroll.js
+        modified:   resources/views/about.blade.php
+        modified:   resources/views/master.blade.php
+        modified:   routes/web.php
 
 ### 15. Front View Setup Part 02
 

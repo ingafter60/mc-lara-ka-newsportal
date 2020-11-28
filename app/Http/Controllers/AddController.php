@@ -13,7 +13,7 @@ class AddController extends Controller
      */
     public function index()
     {
-        return 'AddController/INDEX';
+        return view('AddController/INDEX');
     }
 
     /**
